@@ -8,9 +8,10 @@ from io import BytesIO
 
 # --- 1. SOCIOLOGY CONFIGURATION (BRUNEI ZONE 4) ---
 # The app will now look into that 'Secrets' box you just filled!
-if password == st.secrets["ADMIN_PASSWORD"]:
-    st.success("Admin Access Granted")
-    # ... rest of your admin code
+# if password == st.secrets["ADMIN_PASSWORD"]:
+#    st.success("Admin Access Granted")
+# ... rest of your admin code
+
 SYLLABUS_CODE = "9699"
 #GD_FOLDER_ID = "YOUR_SOCIOLOGY_GD_FOLDER_ID_HERE"
 GD_FOLDER_ID = "169rNmys_Uh_fL1ZY1cxlPCdlhBiXxlj8"
@@ -171,7 +172,7 @@ with tab3:
 with tab4:
     st.header("Admin Panel")
     pwd = st.text_input("Password", type="password")
-    if pwd == ADMIN_PASSWORD:
+    if pwd == st.secrets["ADMIN_PASSWORD"]:
         st.success("Admin Access Granted")
         u_col, d_col = st.columns(2)
         with u_col:
