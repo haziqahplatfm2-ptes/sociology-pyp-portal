@@ -7,11 +7,6 @@ from docx.shared import Inches
 from io import BytesIO
 
 # --- 1. SOCIOLOGY CONFIGURATION (BRUNEI ZONE 4) ---
-# The app will now look into that 'Secrets' box you just filled!
-# if password == st.secrets["ADMIN_PASSWORD"]:
-#    st.success("Admin Access Granted")
-# ... rest of your admin code
-
 SYLLABUS_CODE = "9699"
 #GD_FOLDER_ID = "YOUR_SOCIOLOGY_GD_FOLDER_ID_HERE"
 GD_FOLDER_ID = "169rNmys_Uh_fL1ZY1cxlPCdlhBiXxlj8"
