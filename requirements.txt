@@ -1,0 +1,6 @@
+streamlit
+pandas
+pdfplumber
+pymupdf
+gdown
+python-docx
