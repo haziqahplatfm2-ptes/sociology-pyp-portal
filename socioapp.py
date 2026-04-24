@@ -9,7 +9,10 @@ from io import BytesIO
 # --- 1. SOCIOLOGY CONFIGURATION (BRUNEI ZONE 4) ---
 SYLLABUS_CODE = "9699"
 #GD_FOLDER_ID = "YOUR_SOCIOLOGY_GD_FOLDER_ID_HERE"
-GD_FOLDER_ID = "169rNmys_Uh_fL1ZY1cxlPCdlhBiXxlj8"
+GD_FOLDER_ID = "1UL7MrnuCzZdPz64rh5v0HWVAtLFcGCiP"
+
+#https://drive.google.com/drive/u/8/folders/1UL7MrnuCzZdPz64rh5v0HWVAtLFcGCiP
+#Using sociology department gmail account here.
 
 FOLDERS = {
     "June QP": "9699_June_qp",
